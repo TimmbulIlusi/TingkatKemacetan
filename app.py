@@ -141,7 +141,7 @@ if st.button("Hitung Tingkat Kemacetan"):
     hasil_tertinggi = max(kategori, key=kategori.get)
 
     st.subheader("Kategori Dominan")
-    st.success(f"Tingkat Kemacetan: {hasil_tertinggi}")
+    st.success(f"Lalu Lintas: {hasil_tertinggi}")
 
     # ==========================
     # GRAFIK
